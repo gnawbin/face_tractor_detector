@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libface_tracker_detector.so -o libface_tracker_detector.so CMakeFiles/face_tracker_detector.dir/library.c.o 

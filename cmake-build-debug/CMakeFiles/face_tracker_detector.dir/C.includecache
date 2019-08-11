@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/wangbin/36005E93005E59C7/face_tracker_detector/library.c
+library.h
+/media/wangbin/36005E93005E59C7/face_tracker_detector/library.h
+stdio.h
+-
+
+/media/wangbin/36005E93005E59C7/face_tracker_detector/library.h
+

@@ -1,0 +1,4 @@
+/media/wangbin/36005E93005E59C7/CLion-2019.2/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/wangbin/36005E93005E59C7/face_tracker_detector
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug

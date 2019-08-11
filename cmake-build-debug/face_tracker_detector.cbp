@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="face_tracker_detector"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\opencv\;CMake Files\..\..\..\..\usr\local\opencv\lib\;CMake Files\..\..\..\..\usr\local\opencv\lib\cmake\;CMake Files\..\..\..\..\usr\local\opencv\lib\cmake\opencv4\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\;CMake Files\src\;CMake Files\src\exe\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_base">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/libft_base.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_base"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_base/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/libft_base.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_base/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_shape_model">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_shape_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_shape_model"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_shape_model/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_shape_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_shape_model/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="annotate_main">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/annotate_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 annotate_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="annotate_main/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/annotate_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 annotate_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualize_annotations">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/visualize_annotations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 visualize_annotations"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualize_annotations/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/visualize_annotations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 visualize_annotations/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/annotate_main.cpp">
+			<Option target="annotate_main"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/train_shape_model.cpp">
+			<Option target="train_shape_model"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/visualize_annotations.cpp">
+			<Option target="visualize_annotations"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_tractor_data.cpp">
+			<Option target="ft_base"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/patch_model.cpp">
+			<Option target="ft_base"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/shape_model.cpp">
+			<Option target="ft_base"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/local/opencv/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/local/opencv/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/local/opencv/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/local/opencv/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Test/Qt5TestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Test/Qt5TestConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Test/Qt5TestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\exe\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
