@@ -3,6 +3,7 @@
 
 src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.o: ../include/annotate.h
 src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.o: ../include/base.h
+src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.o: ../include/face_detetor.h
 src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.o: ../include/face_tractor_data.h
 src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.o: ../include/muct_data.h
 src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.o: ../include/patch_model.h

@@ -23,18 +23,11 @@ void FaceTractorData::rm_incomplete_samples() {
     }
 }
 Mat FaceTractorData::get_image(const int idx, const int flag) {
-    if((idx<0)||(idx>=(int)imnames.size())){
-        return Mat();
-    }
+
+    if((idx < 0) || (idx >= (int)imnames.size()))return Mat();
     Mat img,im;
-    if(flag<2)
-        img=imread(imnames[idx],0);
-    else
-        img=imread(imnames[idx],1);
-    if(flag%2!=0)
-        flip(img,im,1);
-    else
-        im=img;
+    if(flag < 2)img = imread(imnames[idx],0); else img = imread(imnames[idx],1);
+    if(flag % 2 != 0)flip(img,im,1); else im = img;
     return im;
 }
 vector<Point2f> FaceTractorData::get_points(const int idx, const bool flipped) {

@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++17 -pthread -g -fPIC
 
 CXX_DEFINES = -Dft_base_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/include/eigen3 -I/media/wangbin/36005E93005E59C7/face_tracker_detector/include -isystem /usr/local/opencv/include/opencv4 
+CXX_INCLUDES = -I/usr/local/include/eigen3 -I/usr/local/SSBA -I/media/wangbin/36005E93005E59C7/face_tracker_detector/include -isystem /usr/local/opencv/include/opencv4 
 

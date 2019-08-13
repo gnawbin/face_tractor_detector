@@ -35,6 +35,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
 					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
 					<Add directory="/usr/local/opencv/include/opencv4"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -61,6 +62,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
 					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
 					<Add directory="/usr/local/opencv/include/opencv4"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -89,110 +91,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="train_shape_model">
-				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_shape_model" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include/eigen3"/>
-					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
-					<Add directory="/usr/local/opencv/include/opencv4"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_shape_model"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="train_shape_model/fast">
-				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_shape_model" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include/eigen3"/>
-					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
-					<Add directory="/usr/local/opencv/include/opencv4"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_shape_model/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="annotate_main">
-				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/annotate_main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include/eigen3"/>
-					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
-					<Add directory="/usr/local/opencv/include/opencv4"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 annotate_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="annotate_main/fast">
-				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/annotate_main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include/eigen3"/>
-					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
-					<Add directory="/usr/local/opencv/include/opencv4"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 annotate_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="visualize_annotations">
 				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/visualize_annotations" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
@@ -201,6 +99,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
 					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
 					<Add directory="/usr/local/opencv/include/opencv4"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -227,6 +126,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
 					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
 					<Add directory="/usr/local/opencv/include/opencv4"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -245,15 +145,243 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="annotate_main">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/annotate_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 annotate_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="annotate_main/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/annotate_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 annotate_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_shape_model">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_shape_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_shape_model"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_shape_model/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_shape_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_shape_model/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualize_shape_model">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/visualize_shape_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 visualize_shape_model"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualize_shape_model/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/visualize_shape_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 visualize_shape_model/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_patch_model">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_patch_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_patch_model"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_patch_model/fast">
+				<Option output="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/train_patch_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/SSBA"/>
+					<Add directory="/media/wangbin/36005E93005E59C7/face_tracker_detector/include"/>
+					<Add directory="/usr/local/opencv/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 train_patch_model/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/annotate_main.cpp">
 			<Option target="annotate_main"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/train_patch_model.cpp">
+			<Option target="train_patch_model"/>
 		</Unit>
 		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/train_shape_model.cpp">
 			<Option target="train_shape_model"/>
 		</Unit>
 		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/visualize_annotations.cpp">
 			<Option target="visualize_annotations"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/exe/visualize_shape_model.cpp">
+			<Option target="visualize_shape_model"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_detector.cpp">
+			<Option target="ft_base"/>
+		</Unit>
+		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_tracker.cpp">
+			<Option target="ft_base"/>
 		</Unit>
 		<Unit filename="/media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_tractor_data.cpp">
 			<Option target="ft_base"/>

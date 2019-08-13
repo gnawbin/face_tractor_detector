@@ -4,6 +4,7 @@
 src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.o
  ../include/annotate.h
  ../include/base.h
+ ../include/face_detetor.h
  ../include/face_tractor_data.h
  ../include/muct_data.h
  ../include/patch_model.h

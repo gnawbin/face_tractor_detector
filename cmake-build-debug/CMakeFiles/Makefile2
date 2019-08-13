@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-b
 CMakeFiles/ft_base.dir/all:
 	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/depend
 	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6 "Built target ft_base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target ft_base"
 .PHONY : CMakeFiles/ft_base.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/ft_base.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ft_base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ft_base.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ft_base.dir/rule
@@ -105,16 +105,20 @@ clean: CMakeFiles/ft_base.dir/clean
 # Directory level rules for directory src/exe
 
 # Convenience name for "all" pass in the directory.
-src/exe/all: src/exe/CMakeFiles/train_shape_model.dir/all
-src/exe/all: src/exe/CMakeFiles/annotate_main.dir/all
 src/exe/all: src/exe/CMakeFiles/visualize_annotations.dir/all
+src/exe/all: src/exe/CMakeFiles/annotate_main.dir/all
+src/exe/all: src/exe/CMakeFiles/train_shape_model.dir/all
+src/exe/all: src/exe/CMakeFiles/visualize_shape_model.dir/all
+src/exe/all: src/exe/CMakeFiles/train_patch_model.dir/all
 
 .PHONY : src/exe/all
 
 # Convenience name for "clean" pass in the directory.
-src/exe/clean: src/exe/CMakeFiles/train_shape_model.dir/clean
-src/exe/clean: src/exe/CMakeFiles/annotate_main.dir/clean
 src/exe/clean: src/exe/CMakeFiles/visualize_annotations.dir/clean
+src/exe/clean: src/exe/CMakeFiles/annotate_main.dir/clean
+src/exe/clean: src/exe/CMakeFiles/train_shape_model.dir/clean
+src/exe/clean: src/exe/CMakeFiles/visualize_shape_model.dir/clean
+src/exe/clean: src/exe/CMakeFiles/train_patch_model.dir/clean
 
 .PHONY : src/exe/clean
 
@@ -124,39 +128,39 @@ src/exe/preinstall:
 .PHONY : src/exe/preinstall
 
 #=============================================================================
-# Target rules for target src/exe/CMakeFiles/train_shape_model.dir
+# Target rules for target src/exe/CMakeFiles/visualize_annotations.dir
 
 # All Build rule for target.
-src/exe/CMakeFiles/train_shape_model.dir/all: CMakeFiles/ft_base.dir/all
-	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/depend
-	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target train_shape_model"
-.PHONY : src/exe/CMakeFiles/train_shape_model.dir/all
+src/exe/CMakeFiles/visualize_annotations.dir/all: CMakeFiles/ft_base.dir/all
+	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/depend
+	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target visualize_annotations"
+.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/all
 
 # Include target in all.
-all: src/exe/CMakeFiles/train_shape_model.dir/all
+all: src/exe/CMakeFiles/visualize_annotations.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/exe/CMakeFiles/train_shape_model.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/train_shape_model.dir/all
+src/exe/CMakeFiles/visualize_annotations.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/visualize_annotations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 0
-.PHONY : src/exe/CMakeFiles/train_shape_model.dir/rule
+.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/rule
 
 # Convenience name for target.
-train_shape_model: src/exe/CMakeFiles/train_shape_model.dir/rule
+visualize_annotations: src/exe/CMakeFiles/visualize_annotations.dir/rule
 
-.PHONY : train_shape_model
-
-# clean rule for target.
-src/exe/CMakeFiles/train_shape_model.dir/clean:
-	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/clean
-.PHONY : src/exe/CMakeFiles/train_shape_model.dir/clean
+.PHONY : visualize_annotations
 
 # clean rule for target.
-clean: src/exe/CMakeFiles/train_shape_model.dir/clean
+src/exe/CMakeFiles/visualize_annotations.dir/clean:
+	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/clean
+.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/clean
+
+# clean rule for target.
+clean: src/exe/CMakeFiles/visualize_annotations.dir/clean
 
 .PHONY : clean
 
@@ -177,7 +181,7 @@ all: src/exe/CMakeFiles/annotate_main.dir/all
 
 # Build rule for subdir invocation for target.
 src/exe/CMakeFiles/annotate_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/annotate_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 0
 .PHONY : src/exe/CMakeFiles/annotate_main.dir/rule
@@ -198,39 +202,113 @@ clean: src/exe/CMakeFiles/annotate_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target src/exe/CMakeFiles/visualize_annotations.dir
+# Target rules for target src/exe/CMakeFiles/train_shape_model.dir
 
 # All Build rule for target.
-src/exe/CMakeFiles/visualize_annotations.dir/all: CMakeFiles/ft_base.dir/all
-	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/depend
-	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target visualize_annotations"
-.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/all
+src/exe/CMakeFiles/train_shape_model.dir/all: CMakeFiles/ft_base.dir/all
+	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/depend
+	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target train_shape_model"
+.PHONY : src/exe/CMakeFiles/train_shape_model.dir/all
 
 # Include target in all.
-all: src/exe/CMakeFiles/visualize_annotations.dir/all
+all: src/exe/CMakeFiles/train_shape_model.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/exe/CMakeFiles/visualize_annotations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/visualize_annotations.dir/all
+src/exe/CMakeFiles/train_shape_model.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/train_shape_model.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 0
-.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/rule
+.PHONY : src/exe/CMakeFiles/train_shape_model.dir/rule
 
 # Convenience name for target.
-visualize_annotations: src/exe/CMakeFiles/visualize_annotations.dir/rule
+train_shape_model: src/exe/CMakeFiles/train_shape_model.dir/rule
 
-.PHONY : visualize_annotations
-
-# clean rule for target.
-src/exe/CMakeFiles/visualize_annotations.dir/clean:
-	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/clean
-.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/clean
+.PHONY : train_shape_model
 
 # clean rule for target.
-clean: src/exe/CMakeFiles/visualize_annotations.dir/clean
+src/exe/CMakeFiles/train_shape_model.dir/clean:
+	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/clean
+.PHONY : src/exe/CMakeFiles/train_shape_model.dir/clean
+
+# clean rule for target.
+clean: src/exe/CMakeFiles/train_shape_model.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/exe/CMakeFiles/visualize_shape_model.dir
+
+# All Build rule for target.
+src/exe/CMakeFiles/visualize_shape_model.dir/all: CMakeFiles/ft_base.dir/all
+	$(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/depend
+	$(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target visualize_shape_model"
+.PHONY : src/exe/CMakeFiles/visualize_shape_model.dir/all
+
+# Include target in all.
+all: src/exe/CMakeFiles/visualize_shape_model.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/exe/CMakeFiles/visualize_shape_model.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/visualize_shape_model.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 0
+.PHONY : src/exe/CMakeFiles/visualize_shape_model.dir/rule
+
+# Convenience name for target.
+visualize_shape_model: src/exe/CMakeFiles/visualize_shape_model.dir/rule
+
+.PHONY : visualize_shape_model
+
+# clean rule for target.
+src/exe/CMakeFiles/visualize_shape_model.dir/clean:
+	$(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/clean
+.PHONY : src/exe/CMakeFiles/visualize_shape_model.dir/clean
+
+# clean rule for target.
+clean: src/exe/CMakeFiles/visualize_shape_model.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/exe/CMakeFiles/train_patch_model.dir
+
+# All Build rule for target.
+src/exe/CMakeFiles/train_patch_model.dir/all: CMakeFiles/ft_base.dir/all
+	$(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/depend
+	$(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target train_patch_model"
+.PHONY : src/exe/CMakeFiles/train_patch_model.dir/all
+
+# Include target in all.
+all: src/exe/CMakeFiles/train_patch_model.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/exe/CMakeFiles/train_patch_model.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/train_patch_model.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles 0
+.PHONY : src/exe/CMakeFiles/train_patch_model.dir/rule
+
+# Convenience name for target.
+train_patch_model: src/exe/CMakeFiles/train_patch_model.dir/rule
+
+.PHONY : train_patch_model
+
+# clean rule for target.
+src/exe/CMakeFiles/train_patch_model.dir/clean:
+	$(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/clean
+.PHONY : src/exe/CMakeFiles/train_patch_model.dir/clean
+
+# clean rule for target.
+clean: src/exe/CMakeFiles/train_patch_model.dir/clean
 
 .PHONY : clean
 

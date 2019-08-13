@@ -19,6 +19,14 @@ shape_model.h
 ../include/shape_model.h
 patch_model.h
 ../include/patch_model.h
+face_detetor.h
+../include/face_detetor.h
+
+../include/face_detetor.h
+opencv2/opencv.hpp
+-
+face_tractor_data.h
+../include/face_tractor_data.h
 
 ../include/face_tractor_data.h
 opencv2/opencv.hpp
@@ -33,6 +41,8 @@ fstream
 -
 
 ../include/patch_model.h
+base.h
+../include/base.h
 opencv2/opencv.hpp
 -
 vector

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-b
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/media/wangbin/36005E93005E59C7/CLion-2019.2/clion-2019.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/media/wangbin/36005E93005E59C7/CLion-2019.2/clion-2019.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/exe/CMakeFiles/train_shape_model.dir/rule:
-	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/train_shape_model.dir/rule
-.PHONY : src/exe/CMakeFiles/train_shape_model.dir/rule
+src/exe/CMakeFiles/visualize_annotations.dir/rule:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/visualize_annotations.dir/rule
+.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/rule
 
 # Convenience name for target.
-train_shape_model: src/exe/CMakeFiles/train_shape_model.dir/rule
+visualize_annotations: src/exe/CMakeFiles/visualize_annotations.dir/rule
 
-.PHONY : train_shape_model
+.PHONY : visualize_annotations
 
 # fast build rule for target.
-train_shape_model/fast:
-	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/build
-.PHONY : train_shape_model/fast
+visualize_annotations/fast:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/build
+.PHONY : visualize_annotations/fast
 
 # Convenience name for target.
 src/exe/CMakeFiles/annotate_main.dir/rule:
@@ -141,19 +141,49 @@ annotate_main/fast:
 .PHONY : annotate_main/fast
 
 # Convenience name for target.
-src/exe/CMakeFiles/visualize_annotations.dir/rule:
-	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/visualize_annotations.dir/rule
-.PHONY : src/exe/CMakeFiles/visualize_annotations.dir/rule
+src/exe/CMakeFiles/train_shape_model.dir/rule:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/train_shape_model.dir/rule
+.PHONY : src/exe/CMakeFiles/train_shape_model.dir/rule
 
 # Convenience name for target.
-visualize_annotations: src/exe/CMakeFiles/visualize_annotations.dir/rule
+train_shape_model: src/exe/CMakeFiles/train_shape_model.dir/rule
 
-.PHONY : visualize_annotations
+.PHONY : train_shape_model
 
 # fast build rule for target.
-visualize_annotations/fast:
-	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/build
-.PHONY : visualize_annotations/fast
+train_shape_model/fast:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/build
+.PHONY : train_shape_model/fast
+
+# Convenience name for target.
+src/exe/CMakeFiles/visualize_shape_model.dir/rule:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/visualize_shape_model.dir/rule
+.PHONY : src/exe/CMakeFiles/visualize_shape_model.dir/rule
+
+# Convenience name for target.
+visualize_shape_model: src/exe/CMakeFiles/visualize_shape_model.dir/rule
+
+.PHONY : visualize_shape_model
+
+# fast build rule for target.
+visualize_shape_model/fast:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/build
+.PHONY : visualize_shape_model/fast
+
+# Convenience name for target.
+src/exe/CMakeFiles/train_patch_model.dir/rule:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/train_patch_model.dir/rule
+.PHONY : src/exe/CMakeFiles/train_patch_model.dir/rule
+
+# Convenience name for target.
+train_patch_model: src/exe/CMakeFiles/train_patch_model.dir/rule
+
+.PHONY : train_patch_model
+
+# fast build rule for target.
+train_patch_model/fast:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/build
+.PHONY : train_patch_model/fast
 
 annotate_main.o: annotate_main.cpp.o
 
@@ -181,6 +211,33 @@ annotate_main.s: annotate_main.cpp.s
 annotate_main.cpp.s:
 	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/annotate_main.dir/build.make src/exe/CMakeFiles/annotate_main.dir/annotate_main.cpp.s
 .PHONY : annotate_main.cpp.s
+
+train_patch_model.o: train_patch_model.cpp.o
+
+.PHONY : train_patch_model.o
+
+# target to build an object file
+train_patch_model.cpp.o:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/train_patch_model.cpp.o
+.PHONY : train_patch_model.cpp.o
+
+train_patch_model.i: train_patch_model.cpp.i
+
+.PHONY : train_patch_model.i
+
+# target to preprocess a source file
+train_patch_model.cpp.i:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/train_patch_model.cpp.i
+.PHONY : train_patch_model.cpp.i
+
+train_patch_model.s: train_patch_model.cpp.s
+
+.PHONY : train_patch_model.s
+
+# target to generate assembly for a file
+train_patch_model.cpp.s:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/train_patch_model.cpp.s
+.PHONY : train_patch_model.cpp.s
 
 train_shape_model.o: train_shape_model.cpp.o
 
@@ -236,26 +293,61 @@ visualize_annotations.cpp.s:
 	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/visualize_annotations.cpp.s
 .PHONY : visualize_annotations.cpp.s
 
+visualize_shape_model.o: visualize_shape_model.cpp.o
+
+.PHONY : visualize_shape_model.o
+
+# target to build an object file
+visualize_shape_model.cpp.o:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/visualize_shape_model.cpp.o
+.PHONY : visualize_shape_model.cpp.o
+
+visualize_shape_model.i: visualize_shape_model.cpp.i
+
+.PHONY : visualize_shape_model.i
+
+# target to preprocess a source file
+visualize_shape_model.cpp.i:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/visualize_shape_model.cpp.i
+.PHONY : visualize_shape_model.cpp.i
+
+visualize_shape_model.s: visualize_shape_model.cpp.s
+
+.PHONY : visualize_shape_model.s
+
+# target to generate assembly for a file
+visualize_shape_model.cpp.s:
+	cd /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug && $(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/visualize_shape_model.cpp.s
+.PHONY : visualize_shape_model.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... train_shape_model"
 	@echo "... rebuild_cache"
-	@echo "... annotate_main"
 	@echo "... visualize_annotations"
+	@echo "... annotate_main"
+	@echo "... train_shape_model"
+	@echo "... visualize_shape_model"
+	@echo "... train_patch_model"
+	@echo "... edit_cache"
 	@echo "... annotate_main.o"
 	@echo "... annotate_main.i"
 	@echo "... annotate_main.s"
+	@echo "... train_patch_model.o"
+	@echo "... train_patch_model.i"
+	@echo "... train_patch_model.s"
 	@echo "... train_shape_model.o"
 	@echo "... train_shape_model.i"
 	@echo "... train_shape_model.s"
 	@echo "... visualize_annotations.o"
 	@echo "... visualize_annotations.i"
 	@echo "... visualize_annotations.s"
+	@echo "... visualize_shape_model.o"
+	@echo "... visualize_shape_model.i"
+	@echo "... visualize_shape_model.s"
 .PHONY : help
 
 

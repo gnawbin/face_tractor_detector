@@ -8,6 +8,7 @@
 #include "face_tractor_data.h"
 #include "shape_model.h"
 #include "patch_model.h"
+#include "face_detetor.h"
 
 template <typename T>
 T load_ft(const char *fname){
@@ -37,4 +38,6 @@ void read(const FileNode& node,T& x,const T& d){
     else
         x.read(node);
 }
+
+
 #endif //FACE_TRACKER_DETECTOR_BASE_H

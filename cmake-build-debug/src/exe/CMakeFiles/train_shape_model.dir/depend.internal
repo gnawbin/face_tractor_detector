@@ -3,6 +3,7 @@
 
 src/exe/CMakeFiles/train_shape_model.dir/train_shape_model.cpp.o
  ../include/base.h
+ ../include/face_detetor.h
  ../include/face_tractor_data.h
  ../include/patch_model.h
  ../include/shape_model.h

@@ -96,11 +96,39 @@ CMakeFiles/ft_base.dir/src/patch_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ft_base.dir/src/patch_model.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/wangbin/36005E93005E59C7/face_tracker_detector/src/patch_model.cpp -o CMakeFiles/ft_base.dir/src/patch_model.cpp.s
 
+CMakeFiles/ft_base.dir/src/face_detector.cpp.o: CMakeFiles/ft_base.dir/flags.make
+CMakeFiles/ft_base.dir/src/face_detector.cpp.o: ../src/face_detector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ft_base.dir/src/face_detector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ft_base.dir/src/face_detector.cpp.o -c /media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_detector.cpp
+
+CMakeFiles/ft_base.dir/src/face_detector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ft_base.dir/src/face_detector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_detector.cpp > CMakeFiles/ft_base.dir/src/face_detector.cpp.i
+
+CMakeFiles/ft_base.dir/src/face_detector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ft_base.dir/src/face_detector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_detector.cpp -o CMakeFiles/ft_base.dir/src/face_detector.cpp.s
+
+CMakeFiles/ft_base.dir/src/face_tracker.cpp.o: CMakeFiles/ft_base.dir/flags.make
+CMakeFiles/ft_base.dir/src/face_tracker.cpp.o: ../src/face_tracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ft_base.dir/src/face_tracker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ft_base.dir/src/face_tracker.cpp.o -c /media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_tracker.cpp
+
+CMakeFiles/ft_base.dir/src/face_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ft_base.dir/src/face_tracker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_tracker.cpp > CMakeFiles/ft_base.dir/src/face_tracker.cpp.i
+
+CMakeFiles/ft_base.dir/src/face_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ft_base.dir/src/face_tracker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/wangbin/36005E93005E59C7/face_tracker_detector/src/face_tracker.cpp -o CMakeFiles/ft_base.dir/src/face_tracker.cpp.s
+
 # Object files for target ft_base
 ft_base_OBJECTS = \
 "CMakeFiles/ft_base.dir/src/face_tractor_data.cpp.o" \
 "CMakeFiles/ft_base.dir/src/shape_model.cpp.o" \
-"CMakeFiles/ft_base.dir/src/patch_model.cpp.o"
+"CMakeFiles/ft_base.dir/src/patch_model.cpp.o" \
+"CMakeFiles/ft_base.dir/src/face_detector.cpp.o" \
+"CMakeFiles/ft_base.dir/src/face_tracker.cpp.o"
 
 # External object files for target ft_base
 ft_base_EXTERNAL_OBJECTS =
@@ -108,6 +136,8 @@ ft_base_EXTERNAL_OBJECTS =
 libft_base.so: CMakeFiles/ft_base.dir/src/face_tractor_data.cpp.o
 libft_base.so: CMakeFiles/ft_base.dir/src/shape_model.cpp.o
 libft_base.so: CMakeFiles/ft_base.dir/src/patch_model.cpp.o
+libft_base.so: CMakeFiles/ft_base.dir/src/face_detector.cpp.o
+libft_base.so: CMakeFiles/ft_base.dir/src/face_tracker.cpp.o
 libft_base.so: CMakeFiles/ft_base.dir/build.make
 libft_base.so: /usr/local/opencv/lib/libopencv_stitching.so.4.1.0
 libft_base.so: /usr/local/opencv/lib/libopencv_aruco.so.4.1.0
@@ -159,7 +189,7 @@ libft_base.so: /usr/local/opencv/lib/libopencv_photo.so.4.1.0
 libft_base.so: /usr/local/opencv/lib/libopencv_imgproc.so.4.1.0
 libft_base.so: /usr/local/opencv/lib/libopencv_core.so.4.1.0
 libft_base.so: CMakeFiles/ft_base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libft_base.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libft_base.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_base.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_base.dir/src/face_tractor_data.cpp.o"
   "CMakeFiles/ft_base.dir/src/shape_model.cpp.o"
   "CMakeFiles/ft_base.dir/src/patch_model.cpp.o"
+  "CMakeFiles/ft_base.dir/src/face_detector.cpp.o"
+  "CMakeFiles/ft_base.dir/src/face_tracker.cpp.o"
   "libft_base.pdb"
   "libft_base.so"
 )

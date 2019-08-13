@@ -124,17 +124,17 @@ ft_base/fast:
 .PHONY : ft_base/fast
 
 #=============================================================================
-# Target rules for targets named train_shape_model
+# Target rules for targets named visualize_annotations
 
 # Build rule for target.
-train_shape_model: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 train_shape_model
-.PHONY : train_shape_model
+visualize_annotations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualize_annotations
+.PHONY : visualize_annotations
 
 # fast build rule for target.
-train_shape_model/fast:
-	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/build
-.PHONY : train_shape_model/fast
+visualize_annotations/fast:
+	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/build
+.PHONY : visualize_annotations/fast
 
 #=============================================================================
 # Target rules for targets named annotate_main
@@ -150,17 +150,97 @@ annotate_main/fast:
 .PHONY : annotate_main/fast
 
 #=============================================================================
-# Target rules for targets named visualize_annotations
+# Target rules for targets named train_shape_model
 
 # Build rule for target.
-visualize_annotations: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualize_annotations
-.PHONY : visualize_annotations
+train_shape_model: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 train_shape_model
+.PHONY : train_shape_model
 
 # fast build rule for target.
-visualize_annotations/fast:
-	$(MAKE) -f src/exe/CMakeFiles/visualize_annotations.dir/build.make src/exe/CMakeFiles/visualize_annotations.dir/build
-.PHONY : visualize_annotations/fast
+train_shape_model/fast:
+	$(MAKE) -f src/exe/CMakeFiles/train_shape_model.dir/build.make src/exe/CMakeFiles/train_shape_model.dir/build
+.PHONY : train_shape_model/fast
+
+#=============================================================================
+# Target rules for targets named visualize_shape_model
+
+# Build rule for target.
+visualize_shape_model: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualize_shape_model
+.PHONY : visualize_shape_model
+
+# fast build rule for target.
+visualize_shape_model/fast:
+	$(MAKE) -f src/exe/CMakeFiles/visualize_shape_model.dir/build.make src/exe/CMakeFiles/visualize_shape_model.dir/build
+.PHONY : visualize_shape_model/fast
+
+#=============================================================================
+# Target rules for targets named train_patch_model
+
+# Build rule for target.
+train_patch_model: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 train_patch_model
+.PHONY : train_patch_model
+
+# fast build rule for target.
+train_patch_model/fast:
+	$(MAKE) -f src/exe/CMakeFiles/train_patch_model.dir/build.make src/exe/CMakeFiles/train_patch_model.dir/build
+.PHONY : train_patch_model/fast
+
+src/face_detector.o: src/face_detector.cpp.o
+
+.PHONY : src/face_detector.o
+
+# target to build an object file
+src/face_detector.cpp.o:
+	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/src/face_detector.cpp.o
+.PHONY : src/face_detector.cpp.o
+
+src/face_detector.i: src/face_detector.cpp.i
+
+.PHONY : src/face_detector.i
+
+# target to preprocess a source file
+src/face_detector.cpp.i:
+	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/src/face_detector.cpp.i
+.PHONY : src/face_detector.cpp.i
+
+src/face_detector.s: src/face_detector.cpp.s
+
+.PHONY : src/face_detector.s
+
+# target to generate assembly for a file
+src/face_detector.cpp.s:
+	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/src/face_detector.cpp.s
+.PHONY : src/face_detector.cpp.s
+
+src/face_tracker.o: src/face_tracker.cpp.o
+
+.PHONY : src/face_tracker.o
+
+# target to build an object file
+src/face_tracker.cpp.o:
+	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/src/face_tracker.cpp.o
+.PHONY : src/face_tracker.cpp.o
+
+src/face_tracker.i: src/face_tracker.cpp.i
+
+.PHONY : src/face_tracker.i
+
+# target to preprocess a source file
+src/face_tracker.cpp.i:
+	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/src/face_tracker.cpp.i
+.PHONY : src/face_tracker.cpp.i
+
+src/face_tracker.s: src/face_tracker.cpp.s
+
+.PHONY : src/face_tracker.s
+
+# target to generate assembly for a file
+src/face_tracker.cpp.s:
+	$(MAKE) -f CMakeFiles/ft_base.dir/build.make CMakeFiles/ft_base.dir/src/face_tracker.cpp.s
+.PHONY : src/face_tracker.cpp.s
 
 src/face_tractor_data.o: src/face_tractor_data.cpp.o
 
@@ -252,9 +332,17 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ft_base"
 	@echo "... edit_cache"
-	@echo "... train_shape_model"
-	@echo "... annotate_main"
 	@echo "... visualize_annotations"
+	@echo "... annotate_main"
+	@echo "... train_shape_model"
+	@echo "... visualize_shape_model"
+	@echo "... train_patch_model"
+	@echo "... src/face_detector.o"
+	@echo "... src/face_detector.i"
+	@echo "... src/face_detector.s"
+	@echo "... src/face_tracker.o"
+	@echo "... src/face_tracker.i"
+	@echo "... src/face_tracker.s"
 	@echo "... src/face_tractor_data.o"
 	@echo "... src/face_tractor_data.i"
 	@echo "... src/face_tractor_data.s"

@@ -1,8 +1,10 @@
 /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles/ft_base.dir
 /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/edit_cache.dir
-/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/train_shape_model.dir
 /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/rebuild_cache.dir
-/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/annotate_main.dir
 /media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/visualize_annotations.dir
+/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/annotate_main.dir
+/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/train_shape_model.dir
+/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/visualize_shape_model.dir
+/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/train_patch_model.dir
+/media/wangbin/36005E93005E59C7/face_tracker_detector/cmake-build-debug/src/exe/CMakeFiles/edit_cache.dir

@@ -14,7 +14,7 @@ public:
     Mat P;//parameter vector(kx1) CV_32F
     Mat V;//shape basis (2nxk) CV_32F
     Mat E;//parameter variance (kx1) CV_32F
-    Mat C;//connectivity (cx2) CV_32S
+    Mat C;//connectivity (nx2) CV_32S
     int npts(){return V.rows/2;}//number of in shape model
     void calc_params(const vector<Point2f> &pts,///points to compute parmaeters from
                 const Mat weight=Mat(),//Weight of each point(nx1) CV_32

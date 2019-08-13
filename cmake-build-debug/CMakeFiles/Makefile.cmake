@@ -106,7 +106,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ft_base.dir/DependInfo.cmake"
-  "src/exe/CMakeFiles/train_shape_model.dir/DependInfo.cmake"
-  "src/exe/CMakeFiles/annotate_main.dir/DependInfo.cmake"
   "src/exe/CMakeFiles/visualize_annotations.dir/DependInfo.cmake"
+  "src/exe/CMakeFiles/annotate_main.dir/DependInfo.cmake"
+  "src/exe/CMakeFiles/train_shape_model.dir/DependInfo.cmake"
+  "src/exe/CMakeFiles/visualize_shape_model.dir/DependInfo.cmake"
+  "src/exe/CMakeFiles/train_patch_model.dir/DependInfo.cmake"
   )
